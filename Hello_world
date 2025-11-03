@@ -1,0 +1,12 @@
+# Hello World with GUI
+import tkinter as tk
+from tkinter import messagebox
+
+def main():
+    root = tk.Tk()
+    root.withdraw()  # Hide the main window
+    messagebox.showinfo("Hello World!")
+    root.destroy()
+
+if __name__ == "__main__":
+    main()
